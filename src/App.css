@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
+
+.hero-gradient {
+  background: linear-gradient(135deg, #ffc8dd 0%, #cdb4db 100%);
+}
+
+.night-sky {
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+}
+
+.love-note-gradient {
+  background: linear-gradient(135deg, #ffafcc 0%, #ffc8dd 100%);
+}
+
+.memories-gradient {
+  background: linear-gradient(135deg, #bde0fe 0%, #a2d2ff 100%);
+}
+
+.surprise-gradient {
+  background: linear-gradient(135deg, #ffb3c6 0%, #ffc8dd 50%, #cdb4db 100%);
+}
+
+.floating {
+  animation: float 6s ease-in-out infinite;
+}
+
+.floating-slow {
+  animation: float 8s ease-in-out infinite;
+}
+
+.floating-fast {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.sparkle {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide-up {
+  animation: slideUp 1s ease-out;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in-right {
+  animation: slideInRight 0.8s ease-out;
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 0.8s ease-out;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.memory-card {
+  transition: transform 0.3s ease;
+}
+
+.memory-card:hover {
+  transform: scale(1.05) rotate(1deg);
+  z-index: 10;
+}
+
+.heart {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.nav-button {
+  transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Great Vibes', cursive;
+}
+
+body, p, button {
+  font-family: 'Poppins', sans-serif;
+}
