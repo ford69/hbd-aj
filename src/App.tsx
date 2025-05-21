@@ -38,7 +38,7 @@ function App() {
           <span className="sr-only">
             {musicPlaying ? 'Pause Music' : 'Play Music'}
           </span>
-          {musicPlaying ? '🔊' : '🔈'}
+          {musicPlaying ? '▶️ Play' : '⏸️ Pause'} 
         </button>
       </div>
 
