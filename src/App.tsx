@@ -29,17 +29,15 @@ function App() {
   return (
     <div className="relative min-h-screen overflow-hidden">
       <MusicPlayer isPlaying={musicPlaying} setIsPlaying={setMusicPlaying} />
-      
+
       <div className="absolute top-4 right-4 z-50">
-        <button 
+        <button
           onClick={() => setMusicPlaying(!musicPlaying)}
           className="bg-white/30 backdrop-blur-sm p-2 rounded-full hover:bg-white/50 transition-all"
         >
-          {musicPlaying ? (
-            <span className="sr-only">Pause Music</span>
-          ) : (
-            <span className="sr-only">Play Music</span>
-          )}
+          <span className="sr-only">
+            {musicPlaying ? 'Pause Music' : 'Play Music'}
+          </span>
           {musicPlaying ? '🔊' : '🔈'}
         </button>
       </div>
