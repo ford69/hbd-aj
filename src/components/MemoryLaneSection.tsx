@@ -18,15 +18,15 @@ const MemoryLaneSection: React.FC<MemoryLaneSectionProps> = ({ onNext, onPreviou
   // Sample memory items - replace with actual images
   const memories: MemoryItem[] = [
     {
-      caption: "lysm 💕",
+      caption: "2025 💕",
       imageUrl: "/memories/memories-2.JPG"
     },
     {
-      caption: "You..Me..Us",
+      caption: "2023 🎉",
       imageUrl: "/memories/memories-3.JPG"
     },
     {
-      caption: "Been us from time",
+      caption: "2022 🎂",
       imageUrl: "/memories/memories-4.JPG"
     },
     {
